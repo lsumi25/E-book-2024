@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>사진 갤러리</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="image-container">
+        <img id="backgroundImage" src="page1.png" alt="첫 번째 이미지">
+        <a id="foregroundLink" href="" target="_blank"> <!-- 링크 href는 JavaScript에서 동적으로 설정 -->
+            <img id="foregroundImage" src="" alt="인물 이미지" style="display:none;">
+        </a>
+    </div>
+
+    <div class="button-container">
+        <button onclick="prevImage()"><</button>
+        <button onclick="nextImage()">></button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
