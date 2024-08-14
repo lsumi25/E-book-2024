@@ -25,7 +25,7 @@ function updateImage() {
             backgroundImage.src = "page3.png";
             foregroundImage.style.display = "block";
             foregroundImage.src = "img3.png";
-            foregroundImage.style.right = "50px"; // 예시 위치
+            foregroundImage.style.right = "0px"; // 예시 위치
             foregroundImage.style.bottom = "0px"; // 예시 위치
             foregroundLink.href = "http://perfect-shadow-479.notion.site"; // img3에 대한 링크
             break;
