@@ -17,8 +17,8 @@ function updateImage() {
             backgroundImage.src = "page2.png";
             foregroundImage.style.display = "block";
             foregroundImage.src = "img2.png";
-            foregroundImage.style.right = "2px";
-            foregroundImage.style.bottom = "25px";
+            foregroundImage.style.right = "0px";
+            foregroundImage.style.bottom = "35px";
             foregroundLink.href = "https://perfect-shadow-479.notion.site/845ee42b3b434853bab10bb7a72879d1?pvs=4"; // img2에 대한 링크
             break;
         case 2:
